@@ -1,6 +1,6 @@
 var images = ['images/S3.png', 'images/S5.png', 'images/S2.png']; 
-var bikeNames = ['VanMoof S3', 'VanMoof S5', 'VanMoof S2']; 
-var currentImageIndex = bikeNames.indexOf('VanMoof S2'); // Set the current image index
+var bikeNames = ['Model S3', 'Model S5', 'Model S2']; 
+var currentImageIndex = bikeNames.indexOf('Model S2'); // Set the current image index
 var buttonContainer = document.querySelector('.button-group');
 buttonContainer.style.position = 'absolute';
 buttonContainer.style.top = '-300px';
