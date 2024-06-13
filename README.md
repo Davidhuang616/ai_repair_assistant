@@ -1,4 +1,4 @@
-![Voiceflow screenshot](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/12d8e1f9-3d74-44c6-bbfc-ef72efa35659)# AI Repair Assistant
+# AI Repair Assistant
 This is my master graduation project in TU/e industrial design.
 
 ## Empowering Sustainability with an AI Powered Troubleshooting Assistant for Consumer Products
