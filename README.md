@@ -8,7 +8,7 @@ Consumers face challenges in diagnosing and troubleshooting mechanical and elect
 ![P-1_1718208506526-1000](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/25211f40-aef9-4b40-adec-9ca22a9ce08d)
 
 ## Project video
-https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/1ded9d23-66f8-47bc-83eb-8ad9692a7a5d
+https://www.youtube.com/watch?v=mwVmkTVOQ80&ab_channel=YY
 
 ## Prototype design
 
