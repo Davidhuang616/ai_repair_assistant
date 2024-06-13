@@ -1,4 +1,4 @@
-# AI Repair Assistant
+![Voiceflow screenshot](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/12d8e1f9-3d74-44c6-bbfc-ef72efa35659)# AI Repair Assistant
 This is my master graduation project in TU/e industrial design.
 
 ## Empowering Sustainability with an AI Powered Troubleshooting Assistant for Consumer Products
@@ -14,11 +14,12 @@ https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/1ded9d23-6
 
 ### User interface prototype <br />
 * Voiceflow was used to build the conversation flow for the chatbot. <br />
+![Voiceflow screenshot](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/19cd657d-81fb-4ffa-8a33-069a5618f507)
+
 * You can clone the project to your Voiceflow account via this link: <br />
 https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
-* Then the chatbot wasa integrated into the html I designed for the experiment. <br />
+* The chatbot wasa integrated into the html I designed for the experiment. <br />
 * Check "How to run the prototype" for more information. <br />
-<br />
 
 ### Physical probe <br />
 * A replica of an e-bike from a Dutch well-known brand was built for the experiment for participant to experience using the assistant through troubleshooting and repair process. <br />
