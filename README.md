@@ -12,7 +12,7 @@ Consumers face challenges in diagnosing and troubleshooting mechanical and elect
 ### Figure 2. AI repair assistant provides possible root causes for troubleshooting
 
 ## Project video
-[https://miro.com/app/board/uXjVNy4QIiQ=/?moveToWidget=3458764591855159271&cot=14](https://www.youtube.com/watch?v=mwVmkTVOQ80)
+https://www.youtube.com/watch?v=mwVmkTVOQ80
 
 ## How to run the prototype
 1. Download the html, css, js, images file and put them under the same folder.
