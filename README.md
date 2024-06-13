@@ -1,6 +1,4 @@
 # AI Repair Assistant
-
-# Project information
 This is my master graduation project in TU/e industrial design.
 
 ## Empowering Sustainability with an AI Powered Troubleshooting Assistant for Consumer Products
