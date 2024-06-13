@@ -14,6 +14,7 @@ https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/1ded9d23-6
 
 ### User interface prototype <br />
 * Voiceflow was used to build the conversation flow for the chatbot. <br />
+<br />
 ![Voiceflow screenshot](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/19cd657d-81fb-4ffa-8a33-069a5618f507)
 
 * You can clone the project to your Voiceflow account via this link: <br />
@@ -24,7 +25,6 @@ https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
 ### Physical probe <br />
 * A replica of an e-bike from a Dutch well-known brand was built for the experiment for participant to experience using the assistant through troubleshooting and repair process. <br />
 <br />
-
 ![P-1_1718208220132-1000](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/7633529c-c7f3-4de4-83ee-f3aaa6c23758)
 
 ## How to run the prototype
