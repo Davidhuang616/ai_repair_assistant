@@ -11,13 +11,13 @@ Figure 2. AI repair assistant provides possible root causes for troubleshooting
 https://www.youtube.com/watch?v=mwVmkTVOQ80
 
 ## Prototype design
-1. User interface prototype
+1. User interface prototype <br />
 Voiceflow was used to build the conversation flow for the chatbot. <br />
 You can clone the project to your Voiceflow account via this link: <br />
 https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
 Then the chatbot wasa integrated into the html I designed for the experiment. <br />
 Check "How to run the prototype" for more information.
-3. Physical probe
+3. Physical probe <br />
 A replica of an e-bike from a Dutch well-known brand was built for the experiment, for participant to experience using the assistant through troubleshooting and repair process. <br />
 ![P-1_1718208220132-1000](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/7633529c-c7f3-4de4-83ee-f3aaa6c23758)
 Figure 1. AI Repair assistant and the experimental probe
