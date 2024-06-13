@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="web.css">
+</head>
+<body>
+    <div id="banner">
+        <div class="banner">
+          <div class="title">Bike Repair Assistant</div>
+          
+          <button id="homeButton"><img src="images/home.png"></button>
+    </div>
+    <div id="process-steps">
+      <div id="black-dot"></div>
+        <div class="step-container">            
+            <div class="line"></div>
+            <div class="step-text" id="check-incident-text">Check incident</div>
+        </div>
+        <div class="step-container" id="identify-issue">            
+            <div class="line"></div>
+            <div class="step-text" id="identify-issue-text">Identify issue</div>
+        </div>
+        <div class="step-container">           
+            <div class="line"></div>
+            <div class="step-text" id="generate-root-cause">Identify possible root cause</div>
+        </div>
+        <div class="step-container">            
+            <div class="line"></div>
+            <div class="step-text" id="troubleshoot-text">Troubleshoot</div>
+        </div>
+        <div class="step-container">            
+            <div class="line"></div>
+            <div class="step-text" id="solution-text">Solution</div>
+        </div>
+        <div class="step-container">            
+            <div class="line"></div>
+            <div class="step-text" id="complete-text">Complete</div>
+        </div>
+    </div>
+
+    <div id="below-steps">
+      <div class="container">
+        <div id="left-content">                         
+            <div id="check-incident">
+                <div class="check-incident-title">Welcome to the <br> Bike Repair Center</div>
+                <div class="check-incident-subtitle">Help you fix your e-bike</div>
+                <div class="check-incident-bike-container">
+                    <img class="bike-image" id="bike-image" src="images/S3.png" alt="Bike Image">
+                </div>
+            </div>
+            <div id="identifying" style="display: none;">
+              <div class="wheel-container">
+                <div class="wheel">
+                  <img class="wheel-image" src="images/wheel.png" alt="Wheel image">
+                </div>
+                <div class="wheel-line"></div>
+              </div> 
+              <div class="identifying-title">
+                <span id="incident-text">Identifying the incident...</span>
+              </div>                           
+            </div>
+            <div id="rootcausing" style="display: none;">
+              <div class="wheel-container">
+                <div class="wheel">
+                  <img class="wheel-image" src="images/wheel.png" alt="Wheel image">
+                </div>
+                <div class="wheel-line"></div>
+              </div>
+              <div class="identifying-title">
+                <span id="possibility-text">Identifying the possible root cause...</span>
+              </div>                          
+            </div>            
+            <div id="root-cause-daigram" style="display: none;">
+              <div class="rootcause-title" id="rootcause-text">Possible Root Cause for <br> Boost Button</div>
+              <div class="rootcause-subtitle">Here are the possible root causes identified by the assistant, it will help <br> you find the right root cause</div>
+              <div class="button-container">
+                <button class="custom-button" onclick="markButton(this)">
+                  <div class="text-container">
+                    <h3>Power factor</h3>
+                    <p>Battery depleted</p>
+                  </div>
+                </button>              
+                <button class="custom-button" onclick="markButton(this)">
+                  <div class="text-container">
+                    <h3>Connection factor</h3>
+                    <p>Wire disconnection</p>
+                  </div>
+                </button>              
+                <button class="custom-button" onclick="markButton(this)">
+                  <div class="text-container">
+                    <h3>Environmental factor</h3>
+                    <p>Water trace</p>
+                  </div>
+                </button>              
+                <button class="custom-button" onclick="markButton(this)">
+                  <div class="text-container">
+                    <h3>Human factor</h3>
+                    <p>Incorrect usage</p>
+                  </div>
+                </button>
+              </div> 
+            </div>  
+
+            <div id="new-root-cause-daigram" style="display: none;">
+              <div class="rootcause-title" id="rootcause-text">New Root Cause Identified</div>
+              <div class="rootcause-subtitle">Check if this is the right root cause</div>
+              <div class="button-container">
+                <button class="custom-button" onclick="showRootCause(this)"> 
+                  <div class="text-container">
+                    <h3>Component factor</h3>
+                    <p>Internal component damage</p>
+                  </div>
+                </button>
+              </div>
+              <div class="rootcause-identified" id="rootcause-identified">Root Cause Identified!</div>
+            </div>  
+
+            <div id="solution-content" style="display: none;">
+                <div class="solution-title" id="solution-text">How to replace the boost button</div>
+                <div class="solution-subtitle">1. You will need the following tools.</div>
+                <div class="tools-container">
+                  <div class="tool">
+                    <img src="images/hex_key_2.5mm.jpg" alt="Image for tool 1">
+                    <p>Allen key 2.5mm</p>
+                    <a href="https://www.rs-online.vn/p/l-shape-hex-plus-hexagon-key2-5mm/2352870/" class="buy-button" target="_blank">Buy</a>
+                  </div> 
+                  <div class="tool">
+                    <img src="images/tweezers.jpg" alt="Image for tool 2">
+                    <p>Round nose pliers</p>
+                    <a href="https://www.rs-online.vn/p/fine-sharp-tip-precision-tweezer110mm/4768205/" class="buy-button" target="_blank">Buy</a>
+                  </div> 
+                  <div class="tool">
+                    <img src="images/button_new.jpg" alt="Image for tool 3">
+                    <p>Boost Button</p>
+                    <a href="https://nl.rs-online.com/web/p/push-button-switches/7346704" class="buy-button" target="_blank">Buy</a>
+                  </div>
+                </div>
+                <div class="solution-subtitle">2. You can follow the steps below to replace the new boost button.</div>
+                <p class="instruction">(move the cursor over each step to see a bigger image)</p>
+                <div class="reminder">
+                  <img src="images/caution.png" alt="Reminder Image">
+                  Remember to turn off the power first.
+                </div>
+
+                <div class="steps-container">
+                  <div class="step">
+                    <img src="images/step1.png" alt="Image for step 1">
+                    <img src="images/step_1.gif" alt="gif for step 1">
+                    <div class="text-content">
+                      <h2>Step 1</h2>
+                      <p>Turn off the power.</p>       
+                    </div>             
+                  </div>
+                  <div class="step">
+                    <img src="images/step2.png" alt="Image for step 2">
+                    <img src="images/step_2.gif" alt="gif for step 2">
+                    <div class="text-content">
+                      <h2>Step 2</h2>
+                      <p>Unscrew the button using an 2.5mm Allen key.</p>       
+                    </div>             
+                  </div>
+                  <div class="step">
+                    <img src="images/step3.png" alt="Image for step 3">
+                    <img src="images/step_3.gif" alt="gif for step 3">
+                    <div class="text-content">
+                      <h2>Step 3</h2>
+                      <p>Gently pull the button up to avoid disconnection <br> from the connector. Use tools if necessary.</p>
+                    </div>                    
+                  </div>
+                  <div class="step">
+                    <img src="images/step4.png" alt="Image for step 4">
+                    <img src="images/step_4.gif" alt="gif for step 4">
+                    <div class="text-content">
+                      <h2>Step 4</h2>
+                      <p>Use tweezers to hold the connector in place, then <br> gently remove the button from the connector.</p>        
+                    </div>             
+                  </div>
+                  <div class="step">
+                    <img src="images/step5.png" alt="Image for step 5">
+                    <img src="images/step_5.gif" alt="gif for step 5">
+                    <div class="text-content">
+                      <h2>Step 5</h2>
+                      <p>Use tweezers to secure the connector, then align <br> the new button contact with the connector and gently <br> insert it into the connector.</p>  
+                    </div>                   
+                  </div>
+                  <div class="step">
+                    <img src="images/step6.png" alt="Image for step 6">
+                    <img src="images/step_6.gif" alt="gif for step 6">
+                    <div class="text-content">
+                      <h2>Step 6</h2>
+                      <p>Turn on the power and wait until the screen lights up.</p>    
+                    </div>                 
+                  </div>
+                  <div class="step">
+                    <img src="images/step7.png" alt="Image for step 7">
+                    <img src="images/step_7.gif" alt="gif for step 7">
+                    <div class="text-content">
+                      <h2>Step 7</h2>
+                      <p>Press the button to test if it can change the boost <br> level on the screen.</p>       
+                    </div>              
+                  </div>
+                  <div class="step">
+                    <img src="images/step8.png" alt="Image for step 8">
+                    <img src="images/step_8.gif" alt="gif for step 8">
+                    <div class="text-content">
+                      <h2>Step 8</h2>
+                      <p>Ensure the flat surface on the side of the button <br> faces the bolt and then put the button back into <br> the hole.</p>  
+                    </div>                   
+                  </div>
+                  <div class="step">
+                    <img src="images/step9.png" alt="Image for step 9">
+                    <img src="images/step_9.gif" alt="gif for step 9">
+                    <div class="text-content">
+                      <h2>Step 9</h2>
+                      <p>Fasten the bolt using an 2.5mm Allen key.</p>    
+                    </div>                 
+                  </div>
+                  <div class="step">
+                    <img src="images/step10.png" alt="Image for step 10">
+                    <img src="images/step_10.gif" alt="gif for step 10">
+                    <div class="text-content">
+                      <h2>Step 10</h2>
+                      <p>Congratulations! You replaced the button successfully.</p>   
+                    </div>                  
+                  </div>                  
+                  <div class="step">
+                    <img src="images/white.jpg">                                                
+                  </div>
+                  <div class="step">
+                    <img src="images/white.jpg">                                                
+                  </div> 
+            </div>
+          </div>  
+        <div id="right-content">
+            <!-- Your right content here -->
+        </div>
+      </div>
+    </div>      
+    <script src="web.js"></script>
+
+</body>
+</html>
