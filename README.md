@@ -8,7 +8,7 @@ Consumers face challenges in diagnosing and troubleshooting mechanical and elect
 ![P-1_1718208506526-1000](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/25211f40-aef9-4b40-adec-9ca22a9ce08d)
 
 ## Project video
-https://www.youtube.com/watch?v=mwVmkTVOQ80
+
 
 ## Prototype design
 
@@ -19,6 +19,10 @@ https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
 * Then the chatbot wasa integrated into the html I designed for the experiment. <br />
 * Check "How to run the prototype" for more information. <br />
 <br />
+
+https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/1ded9d23-66f8-47bc-83eb-8ad9692a7a5d
+
+
 
 ### Physical probe <br />
 * A replica of an e-bike from a Dutch well-known brand was built for the experiment for participant to experience using the assistant through troubleshooting and repair process. <br />
