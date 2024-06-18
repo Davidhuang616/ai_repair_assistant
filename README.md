@@ -27,7 +27,7 @@ https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
 
 ### Physical probe <br />
 * A replica of an e-bike from a Dutch well-known brand was built for the experiment for participant to experience using the assistant through troubleshooting and repair process.
-* The probe was designed specificly for the task of troubleshooting the issue of "boost function" not working
+* The probe was designed specificly for the task of troubleshooting the issue of "boost function not working"
 
 ![probes](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/35c78bb8-1626-4a62-96d1-6268bba95589)
 <br />
