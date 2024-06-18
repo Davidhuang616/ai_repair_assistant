@@ -38,6 +38,5 @@ https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
 
 ![homepage](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/96d9f87a-e280-49fa-9f9f-ce26453a12fe)
  <br />
-### Enjoy testing the assistant!
 
 
