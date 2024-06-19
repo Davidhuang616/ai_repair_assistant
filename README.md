@@ -34,7 +34,8 @@ https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
 
 ## How to run the prototype
 1. Download the html, css, js, images file and put them under the same folder.
-2. Run the html on your browser. If everything is correctly setup, you should be able to see the starting page as below
+2. Run the html on your browser, then you will see the starting page. 
+3. Put your own Voiceflow project ID in the Javascript file, then you should be able to see the chatbot.
 
 ![homepage](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/96d9f87a-e280-49fa-9f9f-ce26453a12fe)
  <br />
