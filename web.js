@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
   var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
   v.onload = function() {
     window.voiceflow.chat.load({
-      verify: { projectID: '661bc6586f0af4a38797cc53'},
+      verify: { projectID: '************************'}, //put your own Voiceflow projectID here
       url: 'https://general-runtime.voiceflow.com',
       versionID: 'production',
         render: {
