@@ -34,7 +34,7 @@ https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
 
 ## How to run the prototype
 1. Download the html, css, js file and put them under the same folder.
-2. Due to Github file size limitation, download the images from drive, unzip it and put the entire folder together with the rest.
+2. Due to Github file size limitation, download the images from drive, unzip it and put the entire folder together with the html, css, and js.
    https://drive.google.com/file/d/1WWwTqsPvkTC930F05yA6AHoTzkbALZyr/view?usp=sharing
 4. Run the html on your browser, then you will see the starting page. 
 5. Put your own Voiceflow project ID in the Javascript file (line 12), then you should be able to see the chatbot.
