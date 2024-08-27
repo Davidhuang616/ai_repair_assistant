@@ -38,7 +38,7 @@ https://creator.voiceflow.com/dashboard?import=661bc6586f0af4a38797cc53 <br />
    https://drive.google.com/file/d/1WWwTqsPvkTC930F05yA6AHoTzkbALZyr/view?usp=sharing
 4. Run the html on your browser, then you will see the starting page. 
 5. Put your own Voiceflow project ID in the Javascript file (line 12), then you should be able to see the chatbot.
-Note: The prototype is designed to best fit with display resolution 1920 x 1080
+* Note: The prototype is designed to best fit with display resolution 1920 x 1080
 
 ![homepage](https://github.com/Davidhuang616/ai_repair_assistant/assets/124699019/96d9f87a-e280-49fa-9f9f-ce26453a12fe)
  <br />
